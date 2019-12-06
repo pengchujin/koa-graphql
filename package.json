@@ -1,5 +1,5 @@
 {
-  "name": "koa-graphql",
+  "name": "koa-graphql-error-code",
   "version": "0.8.0",
   "description": "Production ready GraphQL Koa middleware.",
   "contributors": [

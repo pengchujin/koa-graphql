@@ -202,7 +202,7 @@ function graphqlHTTP(options: Options): Middleware {
         const schemaValidationErrors = validateSchema(schema);
         if (schemaValidationErrors.length > 0) {
           // Return 500: Internal Server Error if invalid schema.
-          response.status = 500;
+          response.status = 200;
           return resolve({ errors: schemaValidationErrors });
         }
 
